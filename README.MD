@@ -4,11 +4,11 @@
 
 ### Backend (Node.js)
     - REST API Endpoints:
-        - POST /companies: Register a company.
-        - POST /workstations: Register a workstation.
-        - POST /notifications: Create a notification.
+        - POST /companies: Register a company. (done)
+        - POST /workstations: Register a workstation. (done)
+        - POST /notifications: Create a notification. (done)
     - Database:
-        - Store company, workstation, and notification details.
+        - Store company, workstation, and notification details. (done)
     - Push Notifications:
         - Implement a custom push notification service.
 ### Frontend (Angular)
