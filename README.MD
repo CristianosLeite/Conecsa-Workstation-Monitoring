@@ -10,7 +10,7 @@
     - Database:
         - Store company, workstation, and notification details. (done)
     - Push Notifications:
-        - Implement a custom push notification service.
+        - Implement a custom push notification service. (done)
 ### Frontend (Angular)
     - Components:
         - Company Registration Form
@@ -28,17 +28,17 @@
 # Detailed Breakdown
 ### Backend (Node.js)
     - Company Registration:
-        - Endpoint to register a company using the company code.
-        - Store company details in a database.
+        - Endpoint to register a company using the company code. (done)
+        - Store company details in a database. (done)
     - Workstation Registration:
-        - Endpoint to register a workstation.
+        - Endpoint to register a workstation. (done)
         - Each workstation will be associated with a company.
     - Notification Management:
-        - Endpoint to create a notification.
-        - Notifications will include the origin (workstation).
-        - Implement a custom push notification service.
+        - Endpoint to create a notification. (done)
+        - Notifications will include the origin (workstation). (done)
+        - Implement a custom push notification service. (done)
     - Communication with Proprietary API:
-        - Handle integration and communication with the proprietary Node.js API.
+        - Handle integration and communication with the proprietary Node.js API. (done)
     - Authentication:
         - Simple authentication mechanism using only the company code.
 ### Frontend (Angular)
@@ -53,5 +53,5 @@
     - Workstation Registration:
         - Interface to register workstations.
     - Notification Handling:
-     - Receive and display notifications using Notifee.
-     - Ensure notifications include the origin (workstation).
+     - Receive and display notifications using Notifee. (done with Expo notifications)
+     - Ensure notifications include the origin (workstation). (done)
